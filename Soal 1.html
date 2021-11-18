@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Soal 1</title>
+    </head>
+    <body>
+        <script>
+            let x=prompt("Berapa Mawar yang ingin dibeli? (Rp. 5000)")
+            let y=prompt("Berapa Tulip yang ingin dibeli? (Rp. 8000)")
+            let z=prompt("Berapa Anggrek yang ingin dibeli? (Rp. 10000)")
+            let a=prompt("Uang yang anda bayarkan adalah")
+            let total= x*5000 + y*8000 + z*10000
+            let kembali= a-total
+            document.write ("Anda membeli Mawar sebanyak <b>" + x + "bunga </b>" + "dengan harga total Rp." + 5000*x + "<br>")
+            document.write ("Anda membeli Tulip sebanyak <b>" + y + "bunga </b>" + "dengan harga total Rp." + 8000*y + "<br>")
+            document.write ("Anda membeli Anggrek sebanyak <b>" + z + "bunga </b>" + "dengan harga total Rp." + 10000*z + "<br>")
+            document.write ("Total belanjaan anda <b>Rp. " + total + "</b>" + "<br><br><br>")
+
+        if (a>=total) {
+            document.write ("Kembalian anda adalah Rp." + kembali)
+        }
+        else {
+            document.write ("Uang anda tidak mencukupi")
+        }
+        </script>
+    </body>
+    </html>
